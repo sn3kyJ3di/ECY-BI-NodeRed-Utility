@@ -1,0 +1,153 @@
+﻿Instance,Type,Name,Description,Tuning Policy
+1,binaryValue,UnitStatus,Unit Status from AHU,COV_Recieve_Broadcast
+11,binaryValue,DamperDir,Damper Direction (Off = CW),COV_Recieve_Broadcast
+12,binaryValue,RoomOccupancy,Room Occupancy,COV_Recieve_Broadcast
+15,binaryValue,DisHtCl_WrmUp,Disable Heat & Cool during Mrng Warm Up & Night Purge,COV_Recieve_Broadcast
+18,binaryValue,HotWaterReheat,Hot Water Reheat ,COV_Recieve_Broadcast
+49,binaryValue,InitDamper,Initialize Internal Actuator,COV_Recieve_Broadcast
+50,binaryValue,DoZeroCalib,Do Zero Calibration for Internal Flow Sensor,COV_Recieve_Broadcast
+200,binaryValue,AHUSystemOK,Air Handling Unit ready to serve Load,COV_Recieve_Broadcast
+201,binaryValue,HotWaterSystemOK,Hot Water Plant System ready to serve Load,COV_Recieve_Broadcast
+202,binaryValue,DemandLimitEnabled,Demand Limitation Enabled,COV_Recieve_Broadcast
+203,binaryValue,ResetReqHrs,Reset Request Hours Accumulator,COV_Recieve_Broadcast
+204,binaryValue,EnableFactorUpdate,Enable Heating and Cooling Factor Update,COV_Recieve_Broadcast
+211,binaryValue,LowDischTempAlarm3,Low Discharge Temperature Alarm 3,COV_Recieve_Broadcast
+212,binaryValue,LowDischTempAlarm4,Low Discharge Temperature Alarm 4,COV_Recieve_Broadcast
+217,binaryValue,WindowContactAlarm4,Open Window Contact Alarm Level 4,COV_Recieve_Broadcast
+218,binaryValue,FlowCalibAlarm,Airflow Calibration Alarm Level 3,COV_Recieve_Broadcast
+219,binaryValue,LeakingDamperAlarm,Leaking Damper Alarm Level 4,COV_Recieve_Broadcast
+220,binaryValue,ActFlowAlarm2,Airflow Alarm Level 2,COV_Recieve_Broadcast
+221,binaryValue,ActFlowAlarm3,Airflow Alarm Level 3,COV_Recieve_Broadcast
+9001,binaryValue,AutoReverseDamperDir,Auto Reverse Damper Direction,COV_Recieve_Broadcast
+1,analogValue,ActFlow,Actual Flow Reading,COV_Recieve_Broadcast
+2,analogValue,ActFlowSP,Actual Flow Setpoint,COV_Recieve_Broadcast
+3,analogValue,Shedding,Shedding Demand (0-100%),COV_Recieve_Broadcast
+5,analogValue,SpaceTemp,Actual Space Temperature,COV_Recieve_Broadcast
+6,analogValue,DuctInTemp,Duct Inlet Temperature,COV_Recieve_Broadcast
+7,analogValue,SetPtOffset,SetPoint Offset,COV_Recieve_Broadcast
+8,analogValue,OutdoorTemp,Outdoor Air Temperature,COV_Recieve_Broadcast
+9,analogValue,DamperOvr,Damper Override,COV_Recieve_Broadcast
+10,analogValue,CO2Sensor,Actual CO2 Detection,COV_Recieve_Broadcast
+12,analogValue,DischAirSP,Discharge Air Setpoint,COV_Recieve_Broadcast
+13,analogValue,EffectSpaceTemp,Effective Space Temperature,COV_Recieve_Broadcast
+19,analogValue,SpaceHumidity,Space Humitidy,COV_Recieve_Broadcast
+20,analogValue,SensorSetpoint,Space Temperature Sensor Setpoint,COV_Recieve_Broadcast
+26,analogValue,MinFlowSP,Minimum Flow Setpoint,COV_Recieve_Broadcast
+27,analogValue,MaxFlowCoolSP,Cooling Maximum Flow Setpoint,COV_Recieve_Broadcast
+28,analogValue,MinFlowHeatSP,Heating Minimum Flow Setpoint,COV_Recieve_Broadcast
+29,analogValue,MaxFlowHeatSP,Heating Maximum Flow Setpoint,COV_Recieve_Broadcast
+30,analogValue,MinFlowStbySP,Standby Minimum Flow Setpoint,COV_Recieve_Broadcast
+31,analogValue,MinFlowUnoccSP,Unoccupied Minimum Flow Setpoint,COV_Recieve_Broadcast
+32,analogValue,KFactor,Internal Flow Sensor K Factor,COV_Recieve_Broadcast
+33,analogValue,FlowCalib,Internal Flow Sensor Calibration,COV_Recieve_Broadcast
+34,analogValue,DamperResp,Damper Response,COV_Recieve_Broadcast
+35,analogValue,DamperSpeed,Damper Speed,COV_Recieve_Broadcast
+36,analogValue,ActCoolSP,Actual Cooling Setpoint,COV_Recieve_Broadcast
+37,analogValue,ActHeatSP,Actual Heating Setpoint,COV_Recieve_Broadcast
+38,analogValue,UnoccCoolSP,Unoccupied Cooling Setpoint,COV_Recieve_Broadcast
+39,analogValue,StandbyCoolSP,Standby Cooling Setpoint,COV_Recieve_Broadcast
+40,analogValue,OccCoolSP,Occupied Cooling Setpoint,COV_Recieve_Broadcast
+41,analogValue,OccHeatSP,Occupied Heating Setpoint,COV_Recieve_Broadcast
+42,analogValue,StandbyHeatSP,Standby Heating Setpoint,COV_Recieve_Broadcast
+43,analogValue,UnoccHeatSP,Unoccupied Heating Setpoint,COV_Recieve_Broadcast
+44,analogValue,TerminalLoad,Terminal Load,COV_Recieve_Broadcast
+46,analogValue,ChgOverDelay,Change Over Delay (Heat/Cool),COV_Recieve_Broadcast
+47,analogValue,BypassTime,Bypass Mode Override Time,COV_Recieve_Broadcast
+48,analogValue,MaxOatDuctHeat,Maximum Outside Air Temperature for Duct Heater,COV_Recieve_Broadcast
+49,analogValue,MaxOatPerimHeat,Maximum Outside Air Temperature for Perimeter Heat,COV_Recieve_Broadcast
+50,analogValue,EffectSP,Effective Space Temperature Setpoint,COV_Recieve_Broadcast
+51,analogValue,TempErr,Temperature Deviation from Setpoint,COV_Recieve_Broadcast
+52,analogValue,CO2Setpoint,Actual CO2 Setpoint,COV_Recieve_Broadcast
+53,analogValue,CO2Load,CO2 Load (0-100%),COV_Recieve_Broadcast
+54,analogValue,HoldTime,Motion Sensor Hold Time,COV_Recieve_Broadcast
+56,analogValue,MaxDischAirSP,Maximum Discharge Air Setpoint,COV_Recieve_Broadcast
+58,analogValue,LowestCtrlFlow,Lowest controlable flow,COV_Recieve_Broadcast
+68,analogValue,HeatModeTempErr,Temperature Deviation from Heating Setpoint,COV_Recieve_Broadcast
+69,analogValue,CoolModeTempErr,Temperature Deviation from Cooling Setpoint,COV_Recieve_Broadcast
+80,analogValue,EnDelayVPACC,VPACC Enable Delay,COV_Recieve_Broadcast
+81,analogValue,CUSUM_K_VPACC,VPACC CUSUM K Param,COV_Recieve_Broadcast
+82,analogValue,SpaceTempStdErr,Space Temperature Standard Deviation,COV_Recieve_Broadcast
+83,analogValue,SpaceTempErrAlmSp,Space Temperature Standard Deviation Alarm Setpoint,COV_Recieve_Broadcast
+84,analogValue,AirFlowStdErr,Air Flow Standard Deviation,COV_Recieve_Broadcast
+85,analogValue,AirFlowErrAlmSp,Air Flow Standard Deviation Alarm Setpoint,COV_Recieve_Broadcast
+86,analogValue,DischTempStdErr,Discharge Temperature Standard Error ,COV_Recieve_Broadcast
+87,analogValue,DischTempErrAlmSp,Discharge Temperature Standard Deviation,COV_Recieve_Broadcast
+88,analogValue,SpaceTempPosErr,Space Temperatur Positive Accumulated Error,COV_Recieve_Broadcast
+89,analogValue,SpaceTempNegErr,Space Temperature Negative Accumulated Error,COV_Recieve_Broadcast
+90,analogValue,AirFlowPosErr,Air Flow Positive Accumulated Error,COV_Recieve_Broadcast
+91,analogValue,AirFlowNegErr,Air Flow Negative Accumulated Error,COV_Recieve_Broadcast
+92,analogValue,AirFlowAbsErr,Air Flow Absolute Accumulated Error,COV_Recieve_Broadcast
+93,analogValue,DischTempPosErr,Discharge Temperatur Positive Accumulated Error,COV_Recieve_Broadcast
+94,analogValue,DischTempNegErr,Discharge Temperatur Negative Accumulated Error,COV_Recieve_Broadcast
+200,analogValue,ZoneImportance,Zone Importance Multiplier,COV_Recieve_Broadcast
+201,analogValue,StaticPressReq,Static Pressure Setpoint Adjustement Requests,COV_Recieve_Broadcast
+202,analogValue,HeatingReq,Heating Temperature Setpoint Adjustement Requests,COV_Recieve_Broadcast
+203,analogValue,CoolingReq,Cooling Temperature Setpoint Adjustement Requests,COV_Recieve_Broadcast
+204,analogValue,HotWaterReq,Hot Water Plant Setpoint Adjustement Requests,COV_Recieve_Broadcast
+206,analogValue,DemandLimit,Demand Limitation,COV_Recieve_Broadcast
+207,analogValue,ZoneNumber,Zone Number,COV_Recieve_Broadcast
+210,analogValue,SpaceTempAlarmLevel4,Effective Space Temperature Alarm Level 4,COV_Recieve_Broadcast
+211,analogValue,StaticPressReqHrs,Static Pressure Request Hours Accumulator,COV_Recieve_Broadcast
+212,analogValue,CoolingReqHrs,Cooling Request Hours Accumulator,COV_Recieve_Broadcast
+213,analogValue,HeatingReqHrs,Heating Request Hours Accumulator,COV_Recieve_Broadcast
+214,analogValue,HotWaterReqHrs,Hot Water Request Hours Accumulator,COV_Recieve_Broadcast
+221,analogValue,CoolFactorNumber,Cooling Factor Number,COV_Recieve_Broadcast
+222,analogValue,HeatFactorNumber,Heating Factor Number,COV_Recieve_Broadcast
+223,analogValue,gOutdoorTemp,erage Outdoor Temp,COV_Recieve_Broadcast
+229,analogValue,VAV_To_AHU,Encoded Variable Transfer from VAV to AHU,COV_Recieve_Broadcast
+9000,analogValue,AutoCommDelay,Auto-Commissioning Delay,COV_Recieve_Broadcast
+9001,analogValue,AutoCommTimer,Current test remaining time,COV_Recieve_Broadcast
+9011,analogValue,ActFlow@0,Actual Flow at 0% Damper Position,COV_Recieve_Broadcast
+9012,analogValue,ActFlow@100,Actual Flow at 100% Damper Position,COV_Recieve_Broadcast
+9013,analogValue,ActFlowFanOff@25,"Actual Flow, Series Fan Off at 25% Damper Position",COV_Recieve_Broadcast
+9014,analogValue,ActFlowFanOn@25,"Actual Flow, Series Fan On at 25% Damper Position",COV_Recieve_Broadcast
+9015,analogValue,LeakDamperMinFlow,% of Min Flow Setpoint for Leaking Damper Error,COV_Recieve_Broadcast
+9016,analogValue,LowAirFlowMaxFlow,% of Max Flow Setpoint for Low Air Flow Alarm,COV_Recieve_Broadcast
+9017,analogValue,SeriesFanFlowErrorSp,Flow increase required to prove Series Fan,COV_Recieve_Broadcast
+9020,analogValue,LeakReheatDeltaTSp,Discharge Temp Delta T for Leaking Valve Error,COV_Recieve_Broadcast
+9021,analogValue,ReheatDeltaTSp,Reheat Delta Temp Setpoint,COV_Recieve_Broadcast
+9022,analogValue,ReheatDeltaT,Reheat Delta Temp Actual,COV_Recieve_Broadcast
+9023,analogValue,ParallelFanDeltaT,Parallel Fan Delta T Actual,COV_Recieve_Broadcast
+9024,analogValue,DischTempMinFlow,Discharge Temp at Minimum Flow,COV_Recieve_Broadcast
+9025,analogValue,DischTempFanOn,Discharge Temp Fan On,COV_Recieve_Broadcast
+9026,analogValue,DischTempHeat1,Discharge Temp when Heat1,COV_Recieve_Broadcast
+9027,analogValue,DischTempHeat2,Discharge Temp when Heat2,COV_Recieve_Broadcast
+9028,analogValue,DischTempHeat3,Discharge Temp when Heat3,COV_Recieve_Broadcast
+9029,analogValue,ReheatInterDelay,Reheat Test Inter Stage Delay,COV_Recieve_Broadcast
+9031,analogValue,SpaceTempPerimOff,Space Temperature when Perimeter heat is Off,COV_Recieve_Broadcast
+9032,analogValue,SpaceTempPerimOffDelay,Space Temperature when Perimeter heat is Off with Delay,COV_Recieve_Broadcast
+9033,analogValue,SpaceTempPerimOn,Space Temperature when Perimeter heat is On,COV_Recieve_Broadcast
+9034,analogValue,SpaceTempOffDeltaT,Space Temperature Delta T when Perimeter Heat is Off,COV_Recieve_Broadcast
+9035,analogValue,SpaceTempOnDeltaT,Space Temperature Delta T when Perimeter Heat is On,COV_Recieve_Broadcast
+9036,analogValue,PerimHeatingDeltaSP,Perim Heating Delta Setpoint,COV_Recieve_Broadcast
+9037,analogValue,PerimInterDelay,Perim Heating Inter Stage Delay,COV_Recieve_Broadcast
+1,multiStateValue,OccupancyCmd,Occupancy Command,COV_Recieve_Broadcast
+2,multiStateValue,HVACModeCmd,HVAC Mode Command,COV_Recieve_Broadcast
+13,multiStateValue,HeatPriority,Duct vs Perimeter Heat Priority,COV_Recieve_Broadcast
+14,multiStateValue,HVACModeStatus,HVAC Mode Status,COV_Recieve_Broadcast
+15,multiStateValue,OccupancyStatus,Occupancy Status,COV_Recieve_Broadcast
+31,multiStateValue,EcoVue,EcoVue Actual Status,COV_Recieve_Broadcast
+39,multiStateValue,BalancingOvr,Balancing Override,COV_Recieve_Broadcast
+40,multiStateValue,VPACCStatus,VPACC Status Reporting,COV_Recieve_Broadcast
+200,multiStateValue,OptStartStatus,Optimum Start Status,COV_Recieve_Broadcast
+201,multiStateValue,HeatComm,Heating Commissioning,COV_Recieve_Broadcast
+202,multiStateValue,FanComm,Fan Commissioning,COV_Recieve_Broadcast
+9000,multiStateValue,AutoCommSeqCmd,Auto Commissioning Sequence Command,COV_Recieve_Broadcast
+9001,multiStateValue,AutoCommSeqSts,Auto Commissioning Sequence Status,COV_Recieve_Broadcast
+9002,multiStateValue,AirFlowSeqResult,Air Flow Sequencet Result,COV_Recieve_Broadcast
+9003,multiStateValue,ReheatSeqResult,Reheat Sequencet Result,COV_Recieve_Broadcast
+9004,multiStateValue,PerimeterSeqResult,Perimeter Sequence Result,COV_Recieve_Broadcast
+101,analogInput,DischargeTemp,Discharge Temperature Sensor ,COV_Recieve_Broadcast
+102,binaryInput,AuxContact,Auxiliary Contact,COV_Recieve_Broadcast
+103,binaryInput,WindowContact,Window Contact Input,COV_Recieve_Broadcast
+105,analogOutput,Reheat1,Reheat Stage 1,COV_Recieve_Broadcast
+106,analogOutput,PerimHeat1,Perimeter Heating Stage 1,COV_Recieve_Broadcast
+106,analogInput,VAVActuatorPosition,VAV Actuator Position Feedback,COV_Recieve_Broadcast
+105,analogInput,DifferentialPressure,VAV Differential Pressure Sensor,COV_Recieve_Broadcast
+107,analogOutput,VAVActuatorCommand,VAV Actuator Command,COV_Recieve_Broadcast
+9011,analogInput,UNITOUCHSpaceTemp,Space Temperature ,COV_Recieve_Broadcast
+9012,analogInput,UNITOUCHHumidity,Space Humidity,COV_Recieve_Broadcast
+9013,analogInput,UNITOUCHCO2,Space CO2,COV_Recieve_Broadcast
+9021,analogInput,MS-BLE-SpaceTemp,Space Temperature ,COV_Recieve_Broadcast
+9024,binaryInput,MS-BLE-Motion,Motion Sensor,COV_Recieve_Broadcast
+9025,analogInput,MS-BLE-Illuminance,Lux Level,COV_Recieve_Broadcast

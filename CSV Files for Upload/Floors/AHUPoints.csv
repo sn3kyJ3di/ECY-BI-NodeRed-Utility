@@ -1,0 +1,158 @@
+﻿Instance,Type,Name,Description,Tuning Policy
+1,binaryValue,UnitCommand,Unit Command Operation,COV_Recieve_Broadcast
+2,binaryValue,SystemReset,System Reset Command,COV_Recieve_Broadcast
+4,binaryValue,ResetAccumulator,Reset Accumulator,COV_Recieve_Broadcast
+5,binaryValue,ResetElapseTime,Reset All Elapse Time,COV_Recieve_Broadcast
+6,binaryValue,ResetChangeOfStateCount,Reset All Change Of State Count,COV_Recieve_Broadcast
+26,binaryValue,FreezeAlarm,Freeze Alarm Satus,COV_Recieve_Broadcast
+27,binaryValue,MinDamperPosDisabled,Minimum Damper Position Disabled,COV_Recieve_Broadcast
+31,binaryValue,HeatingEnable,Heating System Enable,COV_Recieve_Broadcast
+32,binaryValue,DampersEnable,Fresh Air Dampers Enable,COV_Recieve_Broadcast
+33,binaryValue,CoolingEnable,Cooling Valve Enable,COV_Recieve_Broadcast
+36,binaryValue,HumidifyEnable,Humidification Enable,COV_Recieve_Broadcast
+37,binaryValue,DehumidifyEnable,Dehumidification Enable,COV_Recieve_Broadcast
+300,binaryValue,TestMode,Test Mode,COV_Recieve_Broadcast
+12,analogValue,EffDischTempSp,Effective Discharge Temperature Setpoint,COV_Recieve_Broadcast
+14,analogValue,OutAirTempAvg,Average Outside Air Temperature,COV_Recieve_Broadcast
+210,analogValue,DischPressSPExecDelay,Discharge Pressure Setpoint Execution Delay,COV_Recieve_Broadcast
+211,analogValue,DischPressSPinit,Initial Discharge Pressure Setpoint,COV_Recieve_Broadcast
+212,analogValue,DischPressSPIgnoredReq,Ignored Requests for Discharge Pressure Setpoint Adjustment,COV_Recieve_Broadcast
+213,analogValue,DischPressSPTimeStep,Step Timer for Discharge Pressure Setpoint Adjustment,COV_Recieve_Broadcast
+214,analogValue,DischPressSPReq,Requests for Discharge Pressure Setpoint Adjustment,COV_Recieve_Broadcast
+215,analogValue,DischPressSPDec,Discharge Pressure Setpoint Trim Amount,COV_Recieve_Broadcast
+216,analogValue,DischPressSPInc,Discharge Pressure Setpoint Respond Amount,COV_Recieve_Broadcast
+217,analogValue,DischPressSPresMaxInc,Discharge Pressure Setpoint Maximum Respond,COV_Recieve_Broadcast
+218,analogValue,DischPressMaxSP,Maximum Discharge Pressure Setpoint,COV_Recieve_Broadcast
+219,analogValue,DischPressMinSP,Minimum Discharge Pressure Setpoint,COV_Recieve_Broadcast
+220,analogValue,DischTempSPExecDelay,Discharge Temperature Setpoint Execution Delay,COV_Recieve_Broadcast
+222,analogValue,DischTempSPIgnoredReq,Ignored Requests for Discharge Temperature Setpoint Adjustment,COV_Recieve_Broadcast
+223,analogValue,DischTempSPTimeStep,Step Timer for Discharge Temperature Setpoint Adjustment,COV_Recieve_Broadcast
+224,analogValue,DischTempSPReq,Requests for Discharge Tempearture Setpoint Adjustment,COV_Recieve_Broadcast
+225,analogValue,DischTempSPDec,Discharge Tempearture Setpoint Trim Amount,COV_Recieve_Broadcast
+226,analogValue,DischTempSPInc,Discharge Tempearture Setpoint Respond Amount,COV_Recieve_Broadcast
+227,analogValue,DischTempSPresMaxInc,Discharge Temperature Setpoint Maximum Respond,COV_Recieve_Broadcast
+228,analogValue,HotWaterRequest,Hot Water Plant Requests,COV_Recieve_Broadcast
+230,analogValue,EncodedAHUtoVAV,Encoded AHU variable to VAV units,COV_Recieve_Broadcast
+231,analogValue,AHUtoVAVSchedule1,Encoded Zone 1 Schedule sent from the AHU to the VAV,COV_Recieve_Broadcast
+240,analogValue,DischPressSP,Discharge Pressure Setpoint,COV_Recieve_Broadcast
+241,analogValue,BldgPressureSP,Building Pressure Setpoint,COV_Recieve_Broadcast
+243,analogValue,DischFanMinSpeed,Discharge Fan Minimum Speed,COV_Recieve_Broadcast
+245,analogValue,RetFanMinSpeed,Return Fan Minimum Speed,COV_Recieve_Broadcast
+250,analogValue,MinDischAirTempSP,Minimum Discharge Air Temperature Setpoint,COV_Recieve_Broadcast
+251,analogValue,MaxDischAirTempSP,Maximum Discharge Air Temperature Setpoint,COV_Recieve_Broadcast
+252,analogValue,MinOutdoorAirTempSP,Minimum Outdoor Air Temperature Setpoint,COV_Recieve_Broadcast
+253,analogValue,MaxOutdoorAirTempSP,Maximum Outdoor Air Temperature Setpoint,COV_Recieve_Broadcast
+261,analogValue,DischAirHumSP,Discharge Air Humidity Setpoint,COV_Recieve_Broadcast
+263,analogValue,DischAirDehumSP,Discharge Air Dehumidity Setpoint,COV_Recieve_Broadcast
+265,analogValue,MaxDischAirHumSP,Max Discharge Air Humidity Setpoint,COV_Recieve_Broadcast
+284,analogValue,AtmosphericPress,Atmospheric Pressure,COV_Recieve_Broadcast
+286,analogValue,MinOutdoorFlowSP,Minimum Outdoor Airflow Setpoint,COV_Recieve_Broadcast
+290,analogValue,RetFanPressMaxSP,Return Fan Discharge Pressure Maximum Setpoint,COV_Recieve_Broadcast
+291,analogValue,RetFanPressMinSP,Return Fan Discharge Pressure Minimum Setpoint,COV_Recieve_Broadcast
+293,analogValue,TnRCoolSPReq,Trim&Response Cool SP Request,COV_Recieve_Broadcast
+296,analogValue,TotalNumDevices,Total Number of Remote Devices,COV_Recieve_Broadcast
+297,analogValue,GlobalShedding,Global Shedding,COV_Recieve_Broadcast
+301,analogValue,DeltaTempSupplyFan,Temperature rise across supply fan,COV_Recieve_Broadcast
+302,analogValue,DeltaTempRetVsOut,Minimum difference between OAT and RAT to evaluate economizer error conditions,COV_Recieve_Broadcast
+303,analogValue,EpsilonSAT,Error threshold for SAT sensor,COV_Recieve_Broadcast
+304,analogValue,EpsilonRAT,Error threshold for RAT sensor,COV_Recieve_Broadcast
+305,analogValue,EpsilonMAT,Error threshold for MAT sensor,COV_Recieve_Broadcast
+306,analogValue,EpsilonOAT,Error threshold for OAT sensor,COV_Recieve_Broadcast
+307,analogValue,EpsilonAirFlow,Error threshold for air flow sensors,COV_Recieve_Broadcast
+308,analogValue,EpsilonVFDSPD,Error threshold for VFD speed,COV_Recieve_Broadcast
+309,analogValue,EpsilonDSP,Error threshold for duct static pressure,COV_Recieve_Broadcast
+310,analogValue,EpsilonCCET,Error threshold for cooling coil entering temperature sensor,COV_Recieve_Broadcast
+311,analogValue,EpsilonCCLT,Error threshold for cooling coil leaving temperature sensor,COV_Recieve_Broadcast
+312,analogValue,EpsilonHCET,Error threshold for heating coil entering temperature sensor,COV_Recieve_Broadcast
+313,analogValue,EpsilonHCLT,Error threshold for heating coil leaving temperature sensor,COV_Recieve_Broadcast
+314,analogValue,DeltaOSMax,Maximum number of changes in Operating State ,COV_Recieve_Broadcast
+315,analogValue,ModeDelay,Mode Time Delay,COV_Recieve_Broadcast
+316,analogValue,AlarmDelay,Alarm Time Delay,COV_Recieve_Broadcast
+317,analogValue,TestModeDelay,Test Mode Time Delay,COV_Recieve_Broadcast
+320,analogValue,DAT_AvgTime,Time frame to average value for discharge air temperature,COV_Recieve_Broadcast
+321,analogValue,DAT_SampleTime,Sampling rate for discharge air temperature,COV_Recieve_Broadcast
+322,analogValue,CCET_AvgTime,Time frame to average value for cool coil entering temperature,COV_Recieve_Broadcast
+323,analogValue,CCET_SampleTime,Sampling rate for cooling coil entering temperature,COV_Recieve_Broadcast
+324,analogValue,MAT_AvgTime,Time frame to average value for mixed air temperature,COV_Recieve_Broadcast
+325,analogValue,MAT_SampleTime,Sampling rate for mixed air temperature,COV_Recieve_Broadcast
+326,analogValue,CCLT_AvgTime,Time frame to average value for cooling coil leaving temperature,COV_Recieve_Broadcast
+327,analogValue,CCLT_SampleTime,Sampling rate for cooling coil leaving temperature,COV_Recieve_Broadcast
+328,analogValue,RAT_AvgTime,Time frame to average value for return air temperature,COV_Recieve_Broadcast
+329,analogValue,RAT_SampleTime,Sampling rate for return air temperature,COV_Recieve_Broadcast
+330,analogValue,HCET_AvgTime,Time frame to average value for heating coil entering temperature,COV_Recieve_Broadcast
+331,analogValue,HCET_SampleTime,Sampling rate for heating coil entering temperature,COV_Recieve_Broadcast
+332,analogValue,HCLT_AvgTime,Time frame to average value for heating coil leaving temperature,COV_Recieve_Broadcast
+333,analogValue,HCLT_SampleTime,Sampling rate for heating coil leaving temperature,COV_Recieve_Broadcast
+334,analogValue,OAT_AvgTime,Time frame to average value for outdoor air temperature,COV_Recieve_Broadcast
+335,analogValue,OAT_SampleTime,Sampling rate for outdoor air temperature,COV_Recieve_Broadcast
+336,analogValue,DSP_AvgTime,Time frame to average value for duct static pressure,COV_Recieve_Broadcast
+337,analogValue,DSP_SampleTime,Sampling rate for duct static pressure,COV_Recieve_Broadcast
+411,analogValue,CO2LoadAvg,Average CO2Load,COV_Recieve_Broadcast
+412,analogValue,CO2LoadTotValid,Total Valid # of CO2Load Input,COV_Recieve_Broadcast
+413,analogValue,CO2LoadMax,Maximum CO2Load,COV_Recieve_Broadcast
+414,analogValue,CO2LoadMin,CO2Load,COV_Recieve_Broadcast
+415,analogValue,AirFlowAvg,Average AirFlow,COV_Recieve_Broadcast
+416,analogValue,AirFlowSum,Sum of AirFlow,COV_Recieve_Broadcast
+417,analogValue,AirFlowTotValid,Total Valid # of AirFlow Input,COV_Recieve_Broadcast
+418,analogValue,AirFlowMax,Maximum AirFlow,COV_Recieve_Broadcast
+419,analogValue,AirFlowMin,Minimum AirFlow,COV_Recieve_Broadcast
+420,analogValue,SpaceTempAvg,Average Space Temperature,COV_Recieve_Broadcast
+421,analogValue,SpaceTempTotValid,Total Valid # of Space Temp Input,COV_Recieve_Broadcast
+422,analogValue,SpaceTempMax,Maximum Space Temperature,COV_Recieve_Broadcast
+423,analogValue,SpaceTempMin,Minimum Space Temperature,COV_Recieve_Broadcast
+424,analogValue,OccCount,Occupied Status Count,COV_Recieve_Broadcast
+425,analogValue,UnoccCount,Unoccupied Status Count,COV_Recieve_Broadcast
+426,analogValue,BypassCount,Bypass Status Count,COV_Recieve_Broadcast
+427,analogValue,StandbyCount,Standby Status Count,COV_Recieve_Broadcast
+428,analogValue,OccupancyTotValid,Total Valid Occupancy Count,COV_Recieve_Broadcast
+429,analogValue,OccupancyTotCount,Total Occupancy Count,COV_Recieve_Broadcast
+3,multiStateValue,BalancingOvr,Balancing Override,COV_Recieve_Broadcast
+4,multiStateValue,HeatComm,Heating Commissioning Command,COV_Recieve_Broadcast
+5,multiStateValue,FanComm,Fan Commissioning,COV_Recieve_Broadcast
+6,multiStateValue,EconoOprCond,Economizer Operation Condition,COV_Recieve_Broadcast
+7,multiStateValue,ClimateZone,Climate Zone,COV_Recieve_Broadcast
+10,multiStateValue,OperatorCommand,Operator Command ,COV_Recieve_Broadcast
+21,multiStateValue,DischFanCtrlStatus,Discharge Fan Control Status,COV_Recieve_Broadcast
+22,multiStateValue,RetFanCtrlStatus,Return Fan Control Status,COV_Recieve_Broadcast
+24,multiStateValue,HeatingPumpCtrlStatus,Heating Pump Control Status,COV_Recieve_Broadcast
+25,multiStateValue,CoolingPumpCtrlStatus,Cooling Pump Control Status,COV_Recieve_Broadcast
+26,multiStateValue,OperatingMode,Current Unit Operating Mode,COV_Recieve_Broadcast
+27,multiStateValue,HumidifierCtrlStatus,Humidifier Control Status,COV_Recieve_Broadcast
+101,analogInput,ReturnAirFlow,Return Air Flow,COV_Recieve_Broadcast
+102,analogInput,SupplyAirFlow,Supply Air Flow,COV_Recieve_Broadcast
+103,analogInput,OutdoorAirFlow,Outdoor Air Flow,COV_Recieve_Broadcast
+104,analogInput,OutdoorAirTemp,Outdoor Air Temperature,COV_Recieve_Broadcast
+105,analogInput,OutdoorAirHum,Outdoor Air Humidity,COV_Recieve_Broadcast
+106,analogInput,DischAirTemp,Discharge Air Temperature,COV_Recieve_Broadcast
+107,analogInput,DischAirHum,Discharge Air Humidity,COV_Recieve_Broadcast
+108,analogInput,RetAirTemp,Return Air Temperature,COV_Recieve_Broadcast
+101,binaryOutput,DischFanCmd,Discharge Fan Start Command,COV_Recieve_Broadcast
+102,analogOutput,DischFanSpeed,Dischage Fan Speed Control ,COV_Recieve_Broadcast
+103,binaryOutput,RetFanCmd,Return Fan Start Command,COV_Recieve_Broadcast
+104,analogOutput,RetFanSpeed,Return Fan Speed Control ,COV_Recieve_Broadcast
+105,analogOutput,MinOutdoorAirDmp,Mini Outdoor Air Damper,COV_Recieve_Broadcast
+106,analogOutput,OutdoorAirDamper,Outdoor Air Damper,COV_Recieve_Broadcast
+201,analogInput,RetAirHum,Return Air Humidity,COV_Recieve_Broadcast
+202,analogInput,MixedAirTemp,Mixed Air Temperature,COV_Recieve_Broadcast
+203,analogInput,DischAirPress,Discharge Air Pressure,COV_Recieve_Broadcast
+204,binaryInput,DischFanStatus,Discharge Fan Status,COV_Recieve_Broadcast
+205,binaryInput,DischFanFault,Discharge Fan Fault,COV_Recieve_Broadcast
+206,binaryInput,RetFanStatus,Return Fan Status,COV_Recieve_Broadcast
+207,binaryInput,RetFanFault,Return Fan Fault,COV_Recieve_Broadcast
+208,analogInput,BuildingPressure,Building Pressure,COV_Recieve_Broadcast
+201,analogOutput,ReturnAirDamper,Return Air Damper,COV_Recieve_Broadcast
+202,analogOutput,ExhaustAirDamper,Exhaust Air Damper,COV_Recieve_Broadcast
+203,analogOutput,CoolingValve,Cooling Valve,COV_Recieve_Broadcast
+204,binaryOutput,CoolingPumpCmd,Cooling Pump Start Command,COV_Recieve_Broadcast
+205,analogOutput,HeatingValve,Heating Valve,COV_Recieve_Broadcast
+206,binaryOutput,HeatingPumpCmd,Heating Pump Start Command,COV_Recieve_Broadcast
+301,analogInput,RetAirPress,Return Air Pressure,COV_Recieve_Broadcast
+302,analogInput,CoolCoilAirTemp,Cooling Coil Air Leaving Temperature,COV_Recieve_Broadcast
+303,binaryInput,CoolingPumpFault,Cooling Pump Fault,COV_Recieve_Broadcast
+304,binaryInput,CoolingPumpStatus,Cooling Pump Status ,COV_Recieve_Broadcast
+305,analogInput,HeatCoilAirTemp,Heating Coil Air LeavingTemperature,COV_Recieve_Broadcast
+306,binaryInput,HeatingPumpFault,Heating Pump Fault,COV_Recieve_Broadcast
+307,binaryInput,HeatingPumpStatus,Heating Pump Status,COV_Recieve_Broadcast
+308,binaryInput,HumidifierFault,Humidifier Fault,COV_Recieve_Broadcast
+301,analogOutput,HumidifierCtrl,Humidifier Control Signal,COV_Recieve_Broadcast
+401,binaryInput,HumidifierStatus,Humidifier Status,COV_Recieve_Broadcast

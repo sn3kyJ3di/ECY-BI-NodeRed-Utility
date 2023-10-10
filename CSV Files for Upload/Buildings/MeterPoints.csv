@@ -1,0 +1,7 @@
+﻿Instance,Type,Name,Description,Tuning Policy
+1,analogValue,kWh,Kilowatt-Hours,COV_Recieve_Broadcast
+2,analogValue,Gal,Gallons,COV_Recieve_Broadcast
+3,analogValue,cF,CubicFeet,COV_Recieve_Broadcast
+1,analogInput,kWd,Kilowatt-Demand,COV_Recieve_Broadcast
+2,analogInput,gpm,Gallons Per Minute,COV_Recieve_Broadcast
+3,analogInput,cFh,CubicFeet Per Hour,COV_Recieve_Broadcast

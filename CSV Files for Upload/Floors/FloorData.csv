@@ -1,0 +1,6 @@
+﻿Name,Description,Area,Level,Order,Building,Dashboard
+1st,First Floor,1000,0,0,Building,First_Floor
+2nd,Second Floor,1000,1,1,Building,Second_Floor
+3rd,Third Floor,1000,2,2,Building,Third_Floor
+4th,Fourth Floor,1000,3,3,Building,Fourth_Floor
+Roof,Roof,0,4,4,Building,Roof

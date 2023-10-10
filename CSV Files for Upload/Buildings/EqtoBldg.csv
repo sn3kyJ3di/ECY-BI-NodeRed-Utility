@@ -1,0 +1,4 @@
+﻿Name,Description,Order,Area Served,Type,Subtype,Building,Dashboard,Device ID,Device Name,Description
+ElectricMeter,Building Electric Meter,6,Building,Meter:Building_Meter:Building_Electrical_Meter,Meter,Building,ElectricMeter,1200,S1000_Meters,Building_Energy_Meters
+WaterMeter,Building Water Meter,7,Building,Meter:Building_Meter:Building_Water_Meter,Meter,Building,WaterMeter,1200,S1000_Meters,Building_Energy_Meters
+GasMeter,Building Gas Meter,8,Building,Meter:Building_Meter:Building_Gas_Meter,Meter,Building,GasMeter,1200,S1000_Meters,Building_Energy_Meters
