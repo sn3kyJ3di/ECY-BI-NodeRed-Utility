@@ -1381,17 +1381,6 @@
         "className": ""
     },
     {
-        "id": "3ebbf1857eab95b8",
-        "type": "ui_group",
-        "name": "BACNet Device to Equipment CSV Upload",
-        "tab": "79183c26796fab6b",
-        "order": 2,
-        "disp": true,
-        "width": 13,
-        "collapse": false,
-        "className": ""
-    },
-    {
         "id": "394dd5c9e772b680",
         "type": "ui_group",
         "name": "BACNet Points to Equipment Table",
