@@ -1,0 +1,12 @@
+{
+    "name": "Eclypse_BI_Project_Tool",
+    "description": "NodeRed utility to auto-generate the site and BACNet controllers for an Eclypse Building Intelligence Project",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
