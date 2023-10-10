@@ -1051,15 +1051,6 @@
         "hidden": false
     },
     {
-        "id": "a209252e1e2844d7",
-        "type": "ui_tab",
-        "name": "Point Connector Links",
-        "icon": "dashboard",
-        "order": 12,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "798f6acc339ea0c0",
         "type": "ui_group",
         "name": "BACNet Devices Form",
