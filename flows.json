@@ -1203,28 +1203,6 @@
         "className": ""
     },
     {
-        "id": "74f8942f6ea93323",
-        "type": "ui_group",
-        "name": "BACNet Device to Equipment Link",
-        "tab": "79183c26796fab6b",
-        "order": 1,
-        "disp": true,
-        "width": 13,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "27b1332e0a5bcead",
-        "type": "ui_group",
-        "name": "BACNet Device to Equipment Table",
-        "tab": "79183c26796fab6b",
-        "order": 3,
-        "disp": true,
-        "width": 26,
-        "collapse": false,
-        "className": ""
-    },
-    {
         "id": "1eeab51532883ecc",
         "type": "ui_group",
         "name": "BACNet Duplicate Form",
